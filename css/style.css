@@ -569,26 +569,24 @@ img {
 	max-width: 940px;
 	border-radius: 8px;
 	background: #202020;
-	padding: 0 .4rem;
+	padding: 0 2rem;
+	position: relative;
 	display: flex;
 	justify-content: center;
 }
 
 .info-article {
 	max-width: 860px;
-	min-height: 380px;
 	background: #FFFFFF;
 	box-shadow: 0px 12px 24px 0px #11111126;
 	border-radius: 4px;
-	margin: 46px auto;
+	top: 45px;
+	margin: 0 2.5rem;
+	padding: 4.375rem 2.875rem;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1rem;
 	line-height: 200%;
-}
-
-.info-text {
-	max-width: 720px;
-	margin: 46px auto;
+	position: absolute;
 }
