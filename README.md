@@ -10,7 +10,7 @@
 
 <img src="exemplo.JPG" alt="exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> A ideia do EcomBR é prestar consultoria com excelência e qualidade para pessoas que desejam iniciar ou já fazem parte do mundo E-commerce.
 
 ### Ajustes e melhorias
 
@@ -21,7 +21,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Conteúdo do website
 - [x] Estilização do conteúdo
 - [x] Menu-Hamburger
-- [ ] Deixar a página dinamica
+- [ ] Deixar a página dinâmica
 
 ## 🤝 Colaboradores
 
@@ -30,7 +30,7 @@ Pessoas responsáveis pelo projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/damasioCode/">
         <img src="https://avatars.githubusercontent.com/u/85068993?v=4" width="100px;" alt="Foto do Daniel Damasio no GitHub"/><br>
         <sub>
           <b>Daniel Damasio</b>
@@ -38,7 +38,7 @@ Pessoas responsáveis pelo projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/MarcosDS7">
         <img src="https://avatars.githubusercontent.com/u/61913052?v=4" width="100px;" alt="Foto do Marcos Souza"/><br>
         <sub>
           <b>Marcos Souza</b>
