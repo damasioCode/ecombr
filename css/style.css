@@ -190,12 +190,14 @@ img {
 
 .social-head {
 	display: flex;
-	gap: 1.25rem;
+}
+
+.social-head li + li {
+	margin-left: 1.25rem;
 }
 
 .contact-head {
 	display: flex;
-	gap: 30px;
 }
 
 .contact-head li a {
@@ -205,6 +207,10 @@ img {
 	color: #FAFAF8;
 	font-size: .8rem;
 	font-weight: normal;
+}
+
+.contact-head li + li {
+	margin-left: 2rem;
 }
 
 .contact-head p {
@@ -565,12 +571,14 @@ img {
 }
 
 .info-article-bg {
-	height: 324px;
+	min-height: 324px;
 	max-width: 940px;
 	border-radius: 8px;
 	background: #202020;
 	padding: 0 2rem;
 	position: relative;
+	margin: 0 auto;
+	margin-bottom: 15rem;
 	display: flex;
 	justify-content: center;
 }
@@ -582,11 +590,88 @@ img {
 	border-radius: 4px;
 	top: 45px;
 	margin: 0 2.5rem;
-	padding: 4.375rem 2.875rem;
+	padding: 3.375rem 2rem;
+	position: absolute;
+}
+
+.info-article p {
 	font-family: Poppins;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 1rem;
 	line-height: 200%;
-	position: absolute;
+}
+
+@media (max-width: 800px) {
+	.info-article-bg {
+		margin-bottom: 22rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.info-article-bg {
+		height: 460px;
+		padding: 0 .5rem;
+		margin-bottom: 10rem;
+	}
+	.info-article {
+		top: 25px;
+		margin: 0 1rem;
+		padding: 1rem .875rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.info-article-bg {
+		margin-bottom: 20rem;
+	}
+}
+
+@media (max-width: 380px) {
+	.info-article-bg {
+		margin-bottom: 30rem;
+	}
+}
+
+@media (max-width: 350px) {
+	.info-article-bg {
+		margin-bottom: 40rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.info-article-bg {
+		margin-bottom: 50rem;
+	}
+}
+
+
+.contact-bg {
+	margin-top: 10rem;
+	padding: 1.25rem;
+}
+
+.contact {
+	max-width: 978px;
+	padding: 2rem;
+	border-radius: 8px;
+	background: #202020;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contact-block {
+	max-width: 310px;
+	color: #FFFFFF;
+	margin: 4.5rem .5rem;
+}
+
+.contact-block h2 {
+	font-family: Archivo;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	margin-bottom: 1rem;
 }
