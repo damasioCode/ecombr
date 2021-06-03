@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>EcomBr - Preparado e pronto para vencer</title>
   </head>
   <body>
@@ -26,13 +27,13 @@
 
         <ul class="contact-head">
           <li>
-            <a href="#">
+            <a href="mailto:meugmail@gmail.com">
               <img src="src/icon/mail.svg" alt="email" />
               <p>meugmail@gmail.com</p>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="tel:+559999999-9999">
               <img src="src/icon/phone.svg" alt="telefone" />
               <p>+55 99 99999-9999</p>
             </a>
@@ -43,7 +44,7 @@
 
     <header class="header-bg">
       <div class="header">
-        <a href="#"><img src="src/icon/logo.svg" alt="" /></a>
+        <a href=""><img src="src/icon/logo.svg" alt="Logo" /></a>
         <nav id="nav">
           <button
             id="btn-mobile"
@@ -55,10 +56,10 @@
             <span id="hamburger"></span>
           </button>
           <ul class="menu-items" role="menu">
-            <li class="menu-item"><a href="#">Benefícios</a></li>
-            <li class="menu-item"><a href="#">Serviços</a></li>
-            <li class="menu-item"><a href="#">Sobre</a></li>
-            <li class="item-active"><a href="#">Contato</a></li>
+            <li class="menu-item"><a href="#benefit">Benefícios</a></li>
+            <li class="menu-item"><a href="#service">Serviços</a></li>
+            <li class="menu-item"><a href="#info">Sobre</a></li>
+            <li class="item-active"><a href="#contact">Contato</a></li>
           </ul>
         </nav>
       </div>
@@ -85,7 +86,7 @@
       </footer>
     </section>
 
-    <section class="benefit-bg">
+    <section class="benefit-bg" id="benefit">
       <div class="benefit js-scroll">
         <blockquote>
           <h1 class="title-center">Benefícios</h1>
@@ -134,7 +135,7 @@
       <img class="pipa" src="src/efect.svg" alt="Pipa" />
     </section>
 
-    <section class="service-bg">
+    <section class="service-bg" id="service">
       <img src="src/blur.png" class="blur-red" alt="Blur" />
       <div class="service js-scroll">
         <div class="service-block">
@@ -181,7 +182,7 @@
       <img class="pipa-bottom" src="src/efect.svg" alt="Pipa" />
     </section>
 
-    <section class="info-bg">
+    <section class="info-bg" id="info">
       <div class="info js-scroll">
         <blockquote class="info-block">
           <h1 class="title-center">Sobre</h1>
@@ -212,7 +213,7 @@
       </div>
     </section>
 
-    <div class="contact-bg">
+    <div class="contact-bg" id="contact">
       <div class="contact js-scroll">
         <div class="contact-block">
           <h2>Entre em contato conosco!</h2>
@@ -232,12 +233,12 @@
           </p>
         </li>
 
-        <li>
+        <li id="footer-items">
           <h2>Mapa do site</h2>
-          <p><a href="#">Benefícios</a></p>
-          <p><a href="#">Serviços</a></p>
-          <p><a href="#">Sobre</a></p>
-          <p><a href="#">Contato</a></p>
+          <p><a href="#benefit">Benefícios</a></p>
+          <p><a href="#service">Serviços</a></p>
+          <p><a href="#info">Sobre</a></p>
+          <p><a href="#contact">Contato</a></p>
         </li>
 
         <li>
@@ -249,8 +250,8 @@
 
         <li>
           <h2>Contato</h2>
-          <p><a href="#">+55 99 99999-9999</a></p>
-          <p><a href="#">meu@gmail.com</a></p>
+          <p><a href="tel:+559999999-9999">+55 99 99999-9999</a></p>
+          <p><a href="mailto:meugmail@gmail.com">meu@gmail.com</a></p>
         </li>
       </ul>
       <div class="copy">
