@@ -2,11 +2,11 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/damasiocode/ecombr?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/damasiocode/ecombr?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/damasiocode/ecombr?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/damasiocode/ecombr?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/damasiocode/ecombr?style=for-the-badge)
 
 <img src="exemplo.JPG" alt="exemplo imagem">
 
@@ -21,7 +21,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Conteúdo do website
 - [x] Estilização do conteúdo
 - [x] Menu-Hamburger
-- [ ] Deixar a página dinâmica
+- [x] Deixar a página dinâmica
 
 ## 🤝 Colaboradores
 
